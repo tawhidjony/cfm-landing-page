@@ -7322,10 +7322,30 @@ body {
   .services-area p {
     text-align: center; }
 
+.testimonials-area {
+  padding: 5rem 0rem !important;
+  background-color: #F5F5F5; }
+  .testimonials-area h1 {
+    text-align: center; }
+  .testimonials-area .h1-title:after {
+    width: 18rem !important; }
+  .testimonials-area .testmonials-slider-area .slick-list.draggable {
+    padding: 1rem 0rem; }
+  .testimonials-area .testmonials-slider-area .testmonials-slider {
+    padding: 1.2rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.22); }
+    .testimonials-area .testmonials-slider-area .testmonials-slider h4 {
+      text-align: center;
+      text-transform: uppercase; }
+    .testimonials-area .testmonials-slider-area .testmonials-slider p {
+      text-align: center; }
+
 .contact-area {
   height: 400px;
   padding: 5rem 0rem !important;
-  background-color: #F5F5F5; }
+  background-color: #EBEBEB; }
   .contact-area h1 {
     text-align: center; }
   .contact-area p {

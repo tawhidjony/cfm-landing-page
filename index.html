@@ -153,6 +153,52 @@
         </div>
     </section>
      <!-- Services end -->
+     <!-- tesmonial start -->
+     <section class="testimonials-area">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="h1-title">testimonials</h1>
+            </div>
+          </div>
+
+          <div class="row testmonials-slider-area">
+            <div class="col-md-3">
+              <div class="testmonials-slider">
+                <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor, sit amet </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+                <div class="testmonials-slider">
+                  <h4>Lorem ipsum</h4>
+                  <p>Lorem ipsum dolor, sit amet </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="testmonials-slider">
+                  <h4>Lorem ipsum</h4>
+                  <p>Lorem ipsum dolor, sit amet </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="testmonials-slider">
+                  <h4>Lorem ipsum</h4>
+                  <p>Lorem ipsum dolor, sit amet </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="testmonials-slider">
+                  <h4>Lorem ipsum</h4>
+                  <p>Lorem ipsum dolor, sit amet </p>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+     </section>
+     <!-- tesmonial end -->
     <!-- Services start -->
       <section id="contact" class="contact-area">
       <div class="container">
@@ -194,6 +240,45 @@
           speed: 2000,
           slidesToShow: 1,
           slidesToScroll: 1,
+        });
+        $('.testmonials-slider-area').slick({
+          autoplay: true,
+          autoplaySpeed: 3000,
+          infinite: true,
+          speed: 2000,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [
+      
+              {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+              },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 575,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
         });
       });
 
