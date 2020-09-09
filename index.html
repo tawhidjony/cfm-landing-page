@@ -15,10 +15,10 @@
     <section class="top-header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-6">
                    <p> Call Us +351 925 717 647</p>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-6">
                    <div class="social-icon">
                        <a target="_blank" href="https://facebook.com/cfmonsters"><i class="fab fa-facebook    "></i></a>
                        <a target="_blank" href="https://instagram.com/cfmonsters"><i class="fab fa-instagram    "></i></a>
@@ -33,7 +33,8 @@
     <!-- header top bar end -->
 
     <!-- header menu start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-menu ">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light nav-menu primary-menu">
         <a class="navbar-brand" href="#">
             <img src="assets/images/logo.png" class="img-fluid logo" alt="">
         </a>
@@ -61,6 +62,7 @@
           </ul>
         </div>
       </nav>
+    </header>
     <!-- header menu end -->
 
     <!-- slider start -->
@@ -68,24 +70,38 @@
       <div id="slider">
         <div class="single-slider">
           <img src="assets/images/sl-1.jpg" class="img-fluid" alt="Responsive image">
-          <a class="btn btn-green">Book Now</a>
+         
         </div>
         <div class="single-slider">
           <img src="assets/images/sl-2.jpg" class="img-fluid" alt="Responsive image">
-          <a class="btn btn-green">Book Now</a>
+         
         </div>
         <div class="single-slider">
           <img src="assets/images/sl-3.jpg" class="img-fluid" alt="Responsive image">
-          <a class="btn btn-green">Book Now</a>
+         
         </div>
         <div class="single-slider">
           <img src="assets/images/sl-4.jpg" class="img-fluid" alt="Responsive image">
-          <a class="btn btn-green">Book Now</a>
+         
         </div>
       </div>
     </section>
     <!-- slider end -->
 
+    <!-- schedule start -->
+    <section id="book-now" class="book-now-area">
+      <div class="container">
+          <div class="row layout-p-tb">
+              <div class="col-md-12">
+                  <h1 class="h1-title">Book Now</h1>
+              </div>
+              <div class="col-md-12">
+                <p class="text-center my-3"><a href="https://wa.link/mt4t3n" class="btn btn-green">Book Now</a></p>
+              </div>
+          </div>
+      </div>
+  </section>
+   <!-- schedule end -->
     <!-- schedule start -->
     <section id="schedule" class="schedule-area">
       <div class="container">
@@ -179,9 +195,21 @@
           slidesToShow: 1,
           slidesToScroll: 1,
         });
-
-        $('body').scrollspy({ target: '#navbarSupportedContent' })
       });
+
+      //stiky menu start--//
+      var fixed_top = $(".primary-menu");
+
+      $(window).on('scroll', function(){
+        
+        if( $(this).scrollTop() > 100 ){  
+          fixed_top.addClass("fixed-menu animated fadeInDown");
+        }
+        else{
+          fixed_top.removeClass("fixed-menu animated fadeInDown");
+        }
+      }); 
+      //stiky menu end--//
     </script>
 
 </body>
