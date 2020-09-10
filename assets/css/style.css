@@ -7306,7 +7306,7 @@ body {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.22);
     position: relative; }
     .schedule-area .schedule-list:after {
-      content: url(/assets/images/football_splash.png);
+      content: url(https://tawhidjony.github.io/cfm-landing-page/assets/images/football_splash.png);
       position: absolute;
       bottom: 0;
       right: 0; }
