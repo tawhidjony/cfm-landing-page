@@ -7332,7 +7332,7 @@ body {
   .services-area h1 {
     text-align: center; }
   .services-area .h1-title:after {
-    width: 9rem !important; }
+    width: 12.5rem !important; }
   .services-area p {
     text-align: center; }
 
@@ -7349,7 +7349,8 @@ body {
     padding: 1.2rem;
     border-radius: .5rem;
     background-color: #fff;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.22); }
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.22);
+    min-height: 120px; }
     .testimonials-area .testmonials-slider-area .testmonials-slider h4 {
       text-align: center;
       text-transform: uppercase; }
@@ -7384,7 +7385,7 @@ body {
   .contact-area h1 {
     text-align: center; }
   .contact-area .h1-title:after {
-    width: 8rem !important; }
+    width: 16rem !important; }
   .contact-area p {
     text-align: center; }
   .contact-area .h3-contct-address {
@@ -7459,11 +7460,11 @@ body {
   .about-area .h1-title:after {
     width: 8rem !important; }
   .services-area .h1-title:after {
-    width: 7rem !important; }
+    width: 10rem !important; }
   .testimonials-area .h1-title:after {
     width: 10.5rem !important; }
   .contact-area .h1-title:after {
-    width: 6rem !important; }
+    width: 12.5rem !important; }
   .pragraph {
     margin: 1rem 0rem !important;
     font-size: 1.2rem !important;
