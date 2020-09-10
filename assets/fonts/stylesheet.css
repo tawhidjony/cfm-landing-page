@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Rogue Sans Ext';
+    src: url('RogueSansExtBoldItalic.eot');
+    src: url('RogueSansExtBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RogueSansExtBoldItalic.woff2') format('woff2'),
+        url('RogueSansExtBoldItalic.woff') format('woff'),
+        url('RogueSansExtBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
