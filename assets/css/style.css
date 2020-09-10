@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,800;1,900&display=swap'); */
-@import url("https://db.onlinewebfonts.com/c/f976bd16c408fdd271324c69ed7f6ba0?family=RogueSansW00-BoldItalic");
+@import url("http://db.onlinewebfonts.com/c/f976bd16c408fdd271324c69ed7f6ba0?family=RogueSansW00-BoldItalic");
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7198,14 +7197,15 @@ p {
   box-sizing: border-box; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  font-family: "RogueSansW00-BoldItalic" !important; }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /*     font-family: $Raleway; */
-  font-family: "RogueSansW00-BoldItalic"; }
+  font-family: "RogueSansW00-BoldItalic" !important; }
 
 .top-header {
   background-color: #333333;
