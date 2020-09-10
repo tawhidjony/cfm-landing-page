@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,800;1,900&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,800;1,900&display=swap'); */
+@import url("https://db.onlinewebfonts.com/c/f976bd16c408fdd271324c69ed7f6ba0?family=RogueSansW00-BoldItalic");
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7203,7 +7204,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif; }
+  /*     font-family: $Raleway; */
+  font-family: "RogueSansW00-BoldItalic"; }
 
 .top-header {
   background-color: #333333;
@@ -7218,6 +7220,8 @@ body {
         border-radius: 100%;
         padding: .3rem;
         color: #21A900; }
+      .top-header .social-icon a:first-child {
+        padding: 0rem; }
 
 .nav-menu {
   background: linear-gradient(86deg, #21a900 0%, #20a500 0%, #0b3a00 100%, rgba(0, 0, 0, 0.0760679) 100%) !important; }
@@ -7269,8 +7273,9 @@ body {
 
 .book-now-area {
   background-color: #F5F5F5;
-  height: 250px;
   padding: 3rem 0rem !important; }
+  .book-now-area .h1-title:after {
+    width: 10rem !important; }
   .book-now-area h1 {
     text-align: center; }
   .book-now-area .btn-green {
@@ -7278,27 +7283,37 @@ body {
     color: #ffffff !important;
     border-radius: 30px;
     width: 12rem;
-    height: 3rem;
     font-size: 1.5rem;
     font-weight: 600;
     box-shadow: 0rem 0.5rem 0.9rem 0.09em rgba(0, 0, 0, 0.411); }
 
 .schedule-area {
   background-color: #EBEBEB;
-  height: 400px;
+  min-height: 400px;
   padding: 5rem 0rem !important; }
   .schedule-area h1 {
     text-align: center; }
   .schedule-area .h1-title:after {
-    width: 16rem !important; }
+    width: 21rem !important; }
   .schedule-area p {
     text-align: center; }
   .schedule-area .schedule-list {
-    text-align: center; }
+    background-color: white;
+    padding: 2rem;
+    border-radius: .8rem;
+    margin-top: 3rem;
+    min-height: 300px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.22);
+    position: relative; }
+    .schedule-area .schedule-list:after {
+      content: url(/assets/images/football_splash.png);
+      position: absolute;
+      bottom: 0;
+      right: 0; }
     .schedule-area .schedule-list li {
       text-decoration: none !important;
       overflow: hidden;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 200;
       line-height: 2; }
 
@@ -7309,7 +7324,7 @@ body {
   .about-area h1 {
     text-align: center; }
   .about-area .h1-title:after {
-    width: 11rem !important; }
+    width: 9.5rem !important; }
   .about-area p {
     text-align: center; }
 
@@ -7319,6 +7334,8 @@ body {
   background-color: #EBEBEB; }
   .services-area h1 {
     text-align: center; }
+  .services-area .h1-title:after {
+    width: 9rem !important; }
   .services-area p {
     text-align: center; }
 
@@ -7328,7 +7345,7 @@ body {
   .testimonials-area h1 {
     text-align: center; }
   .testimonials-area .h1-title:after {
-    width: 18rem !important; }
+    width: 13rem !important; }
   .testimonials-area .testmonials-slider-area .slick-list.draggable {
     padding: 1rem 0rem; }
   .testimonials-area .testmonials-slider-area .testmonials-slider {
@@ -7342,14 +7359,46 @@ body {
     .testimonials-area .testmonials-slider-area .testmonials-slider p {
       text-align: center; }
 
+.field-location-area {
+  padding: 5rem 0rem !important;
+  background-color: #EBEBEB; }
+  .field-location-area h1 {
+    text-align: center; }
+  .field-location-area .h1-title:after {
+    width: 14rem !important; }
+  .field-location-area .schedule-list {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.27);
+    min-height: 315px; }
+    .field-location-area .schedule-list li {
+      text-decoration: none;
+      overflow: hidden; }
+      .field-location-area .schedule-list li a {
+        color: #21A900 !important; }
+
 .contact-area {
   height: 400px;
   padding: 5rem 0rem !important;
-  background-color: #EBEBEB; }
+  background-color: #F5F5F5; }
   .contact-area h1 {
     text-align: center; }
+  .contact-area .h1-title:after {
+    width: 8rem !important; }
   .contact-area p {
     text-align: center; }
+  .contact-area .h3-contct-address {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem; }
+  .contact-area .pragraph-contct-address {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem; }
 
 .all-right-reserved {
   height: 2.5rem;
@@ -7406,16 +7455,24 @@ body {
       .slider-area #slider .slick-dots li.slick-active button:before {
         background-color: #21A900; }
   .schedule-area .h1-title:after {
-    width: 11rem !important; }
+    width: 17rem !important; }
   .schedule-area .schedule-list li {
     font-size: 1.2rem !important;
     font-weight: 400 !important; }
   .about-area .h1-title:after {
     width: 8rem !important; }
+  .services-area .h1-title:after {
+    width: 7rem !important; }
+  .testimonials-area .h1-title:after {
+    width: 10.5rem !important; }
+  .contact-area .h1-title:after {
+    width: 6rem !important; }
   .pragraph {
     margin: 1rem 0rem !important;
     font-size: 1.2rem !important;
     font-weight: 400 !important; }
+  .field-location-area .h1-title:after {
+    width: 11rem !important; }
   .h1-title {
     font-size: 2rem;
     text-transform: uppercase;
@@ -7435,8 +7492,6 @@ body {
 @media (max-width: 374px) {
   .slick-dots {
     bottom: -5px !important; }
-  .schedule-area .schedule-list {
-    padding: 0 !important; }
-    .schedule-area .schedule-list li {
-      font-size: .9rem !important;
-      font-weight: 400 !important; } }
+  .schedule-area .schedule-list li {
+    font-size: 1rem !important;
+    font-weight: 400 !important; } }
