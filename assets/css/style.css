@@ -4,7 +4,6 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url(/assets/fonts/@font-face/stylesheet.css);
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7203,7 +7202,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*     font-family: $Raleway; */
   font-family: "Rogue Sans W00 Bold Italic"; }
 
 .top-header {
