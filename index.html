@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
     <link rel="icon" href="https://tawhidjony.github.io/cfm-landing-page/assets/images/favicon.ico" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://tawhidjony.github.io/cfm-landing-page/assets/fonts/@font-face/stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
@@ -17,7 +19,7 @@
     <section class="top-header">
         <div class="container-fluid">
             <div class="row ">
-              <div class="col-md-12  d-flex  p-0 align-items-center justify-content-around">
+              <div class="col-md-12 alignment-mobile">
                 
                   <p> Call Us +351 925 717 647</p>
                   <div class="social-icon">
@@ -37,7 +39,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light nav-menu">
         <a class="navbar-brand" href="#">
-            <img src="assets/images/logo.png" class="img-fluid logo" alt="">
+            <h2 class="text-white">CFM</h2>
         </a>
         <button class="navbar-toggler navbar-light bg-light" type="button" data-spy="scroll" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
@@ -70,19 +72,19 @@
     <section class="slider-area">
       <div id="slider">
         <div class="single-slider">
-          <img src="assets/images/Custom dimensions 1400x500 px_image_1.jpeg" class="img-fluid" alt="Responsive image">
+          <img src="assets/images/Custom dimensions 1400x500 px_image_1.jpeg" class="img-fluid img-w100" alt="Responsive image">
          
         </div>
         <div class="single-slider">
-          <img src="assets/images/Custom dimensions 1400x500 px_image_3.jpeg" class="img-fluid" alt="Responsive image">
+          <img src="assets/images/Custom dimensions 1400x500 px_image_3.jpeg" class="img-fluid img-w100" alt="Responsive image">
          
         </div>
         <div class="single-slider">
-          <img src="assets/images/Custom dimensions 1400x500 px_image_4.jpeg" class="img-fluid" alt="Responsive image">
+          <img src="assets/images/Custom dimensions 1400x500 px_image_4.jpeg" class="img-fluid img-w100" alt="Responsive image">
          
         </div>
         <div class="single-slider">
-          <img src="assets/images/Custom dimensions 1400x500 px_image_5.jpeg" class="img-fluid" alt="Responsive image">
+          <img src="assets/images/Custom dimensions 1400x500 px_image_5.jpeg" class="img-fluid img-w100" alt="Responsive image">
          
         </div>
       </div>
@@ -97,7 +99,7 @@
                   <h1 class="h1-title">Book Now</h1>
               </div> -->
               <div class="col-md-6 ml-auto mr-auto my-auto">
-                <p class="text-center"><a href="https://wa.link/mt4t3n" class="btn btn-green">Book Field  <i class="fab fa-whatsapp"></i></a></p>
+                <p class="text-center"><a href="https://wa.me/351925717647?text=Hello%21%20I%20visited%20your%20website%20and%20would%20like%20to%20play%20with%20you" class="btn btn-green">Book Field  <i class="fab fa-whatsapp"></i></a></p>
               </div>
           </div>
       </div>
@@ -247,7 +249,7 @@
               </div>
               <div class="col-md-4">
                 <ul class="schedule-list">
-                  <li>Localização do Campo em Oeiras</li>
+                  <li>Oeiras pitch location</li>
                   <li>Morada:Rua Quirino da Fonseca 1495-768 ALGES</li>
                   <li>Coordenadas GPS:</li>
                   <li>38.701255, -9.237086</li>
@@ -279,12 +281,12 @@
     <!-- contact end -->
 
     <footer>
-      <div class="all-right-reserved d-flex justify-content-around">
+      <div class="all-right-reserved footer-mobile">
         <div class="copyright">
           <p>CFM &copy; 2020 All Right Reserved</p>
         </div>
         <div class="design">
-          <p> Design by &nbsp; <a href="https://pomatia.com"><b class="text-danger">CFM</b></a></p>
+          <p> Design by &nbsp; <a href=""><b class="text-danger">CFM</b></a></p>
         </div>
       </div>
     </footer>
@@ -307,7 +309,8 @@
         $('.testmonials-slider-area').slick({
           autoplay: true,
           autoplaySpeed: 3000,
-          infinite: true,
+          infinite: true, 
+          arrows: false,
           speed: 2000,
           slidesToShow: 4,
           slidesToScroll: 1,
